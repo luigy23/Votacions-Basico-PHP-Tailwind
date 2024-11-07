@@ -1,0 +1,68 @@
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Cache and logs
+/cache/
+/logs/
+*.log
+error_log
+access_log
+
+# Temporary files
+*.swp
+*.swo
+*~
+.php_cs.cache
+
+# Build files
+/build/
+/dist/
+/public/build/
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+
+# Test coverage
+/coverage/
+.phpunit.result.cache
+.phpunit.cache
+
+# Application specific
+/public/uploads/
+/storage/*.key
+/storage/framework/
+/storage/logs/
+/storage/app/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration 
+config.php
+
+# Except these files
+!.gitignore
+!composer.json
+!package.json
+!README.md
+!LICENSE
+!db.sql
